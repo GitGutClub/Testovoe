@@ -3,7 +3,7 @@
 import web
 
 urls = (
-    '/', 'HelloRekruto',
+    '/testovoe', 'HelloRekruto',
 )
 app = web.application(urls, globals())
 render = web.template.render('templates/')
